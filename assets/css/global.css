@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: hsl(220, 50%, 98%);
+}
+
+.content{
+    background-color: #fff;
+    height: 100vh;
+    margin-bottom: 30px;
+    padding: 1rem;
+    width: 98vw;
+}
+
+.titulo{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.titulo img{
+    height: 35px;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (min-widht: 1220px){
+    .content{
+        border-radius: 1rem;
+        height: auto;
+        margin: 1rem auto;
+        max-width: 1220px;
+    }
+}
